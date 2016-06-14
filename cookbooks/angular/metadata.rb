@@ -1,0 +1,11 @@
+name             'angular'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures angular'
+long_description 'Installs/Configures angular'
+version          '0.1.0'
+
+depends          'build-essential'
+depends          'nodejs'
+depends          'ruby'
