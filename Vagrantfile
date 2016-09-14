@@ -60,9 +60,11 @@ Vagrant.configure("2") do |config|
     chef.nodes_path = "nodes"
 
     # List of recipes to run
-    chef.add_recipe "vagrant_main"
+    # chef.add_recipe "vagrant_main"
+    chef.add_recipe "lamp"
     chef.add_recipe "vagrant_main::nodejs"
     chef.add_recipe "vagrant_main::wordpress"
     chef.add_recipe "vagrant_main::magento"
+    chef.add_recipe "angular"
   end
 end
